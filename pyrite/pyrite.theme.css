@@ -33,11 +33,11 @@
 /* https://leafyluigi.github.io/discord-themes/pyrite/var-examples.html */
 :root {
   /* URL must be HTTPS and a direct link to the image. You can have a custom background image for the User Popout and the User Modals. */
-  --background-image: url('https://leafyluigi.github.io/images/pexels-josh-sorenson-116359.png');
+  --background-image: url('file:///D:/Users/CamoC/Downloads/wolf.png');
   --user-modal-image: var(--background-image);
   --user-popout-image: var(--background-image);
   /* Home icon is for the little button in the top left. */
-  --home-icon: url('https://leafyluigi.github.io/images/pexels-chris-munnik-2604991.png');
+  --home-icon: url('https://yt3.ggpht.com/NBUwaHLW2PG156lFNNx4DeqU_ANi3LYN2IVCc_OenU1ZwnUeK1bBEeoksx-VlgKBI3CLc_G6=s176-c-k-c0x00ffffff-no-rj-mo');
 
   /* Image attachment can be "fixed", "scroll" or "local" */
   /* scroll/local attaches the background to the modal completely while fixed keeps it in line with the background */
@@ -53,10 +53,10 @@
   /* Secondary is an accent colour of sorts. It's not used as often as Primary. It should be a shade or two lighter or darker compared to Primary. */
   /* Hover is a secondary accent colour of sorts and is often used when hovering over something. Like Secondary, it should be a shade or two lighter or darker compared to Primary. */
   /* Tooltip is used for tooltips. It can whatever colour you wish. */
-  --primary-color: #387eff;
-  --secondary-color: #3298e0;
-  --hover-color: #139dff;
-  --tooltip-color: #1967ab;
+  --primary-color: #ffffff;
+  --secondary-color: #1e1e1e;
+  --hover-color: #848484;
+  --tooltip-color: #ffffff;
 
   /* These colours are used for statues and other coloured things. Ignoring Green they default to Discord's HSL though converted to Hex. */
   /* Green's default here is the old green. The current green is #3ba55d */
@@ -72,7 +72,7 @@
   --category-color: var(--header-primary); /* Applies to uncollapsed categories, member list groups and applies to active voice/stage channel. */
   --selected-channel-color: var(--header-primary); /* Applies to selected channel as well as non-locked, non-muted channels on hover. */
   --unread-channel-color: var(--primary-color); /* Applies to unread channels. Combined with below can give a glow. */
-  --unread-channel-glow: drop-shadow(0 0 4px); /* More advanced. Uses the filter's drop-shadow function to give a glow. */
+  --unread-channel-glow: drop-shadow(0px); /* More advanced. Uses the filter's drop-shadow function to give a glow. */
   --read-channel-color: var(--interactive-normal); /* Applies unread, unmuted, unlocked (voice) channels and unmuted collapsed categories. */
   --muted-channel-color: var(--interactive-muted); /* Applies to muted channels and categories. Ignores hover from selected. */
   --show-channel-unread-dot: block; /* Toggle display of the unread channel dot. Valid options: "block" and "none", both without quotations. "block" shows the blob and "none" hides it. */
