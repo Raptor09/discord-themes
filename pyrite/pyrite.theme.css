@@ -33,7 +33,7 @@
 /* https://leafyluigi.github.io/discord-themes/pyrite/var-examples.html */
 :root {
   /* URL must be HTTPS and a direct link to the image. You can have a custom background image for the User Popout and the User Modals. */
-  --background-image: url('https://cdn.discordapp.com/attachments/936704755948982282/1103759281049833542/wolf.png');
+  --background-image: url('https://i.pinimg.com/474x/51/c5/bd/51c5bde82d00803005a54a75d677d401.jpg');
   --user-modal-image: var(--background-image);
   --user-popout-image: var(--background-image);
   /* Home icon is for the little button in the top left. */
@@ -53,7 +53,7 @@
   /* Secondary is an accent colour of sorts. It's not used as often as Primary. It should be a shade or two lighter or darker compared to Primary. */
   /* Hover is a secondary accent colour of sorts and is often used when hovering over something. Like Secondary, it should be a shade or two lighter or darker compared to Primary. */
   /* Tooltip is used for tooltips. It can whatever colour you wish. */
-  --primary-color: #ffffff;
+  --primary-color: #DCDCDC;
   --secondary-color: #000000;
   --hover-color: #1e1e1e;
   --tooltip-color: #000000;
